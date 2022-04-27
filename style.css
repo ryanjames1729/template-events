@@ -22,6 +22,9 @@ body{
 
 .main-section{
     height: 100vh;
+	/* display: grid;
+    grid-template-columns: 1fr auto;
+    grid-gap: 1em; */
 }
 
 .contact a{
@@ -102,6 +105,7 @@ body{
 	color:#fff;
 	padding:10px;
 	box-sizing: border-box;
+	margin-bottom: 500px;
 }
 
 #main-footer{
@@ -136,6 +140,13 @@ body{
 	#sidebar{
 		width:100%;
 		float:none;
+	}
+
+	.main-section{
+		height: auto;
+		display: grid;
+    	grid-template-rows: 1fr 1fr;
+    	grid-gap: 1em;
 	}
 }
 
